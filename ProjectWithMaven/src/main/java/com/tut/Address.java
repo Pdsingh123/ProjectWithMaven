@@ -31,7 +31,7 @@ public class Address {
 	private boolean isOpen;
 	
 	@Transient
-	private double x;
+	private double  x;
 	
 	@Column(name="added_Date")
 	@Temporal(TemporalType.TIME)
