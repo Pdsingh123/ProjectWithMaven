@@ -1,5 +1,5 @@
 package com.tut;
-
+// Hi good morning
 import java.util.Arrays;
 import java.util.Date;
 
@@ -32,6 +32,7 @@ public class Address {
 	
 	@Transient
 	private double  x;
+	
 	
 	@Column(name="added_Date")
 	@Temporal(TemporalType.TIME)
